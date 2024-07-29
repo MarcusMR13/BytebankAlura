@@ -1,16 +1,15 @@
+import 'dart:js_interop';
+
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    const Column(
-  children: <Widget>[
-    Text('Deliver features faster', textDirection: TextDirection.ltr,),
-    Text('Craft beautiful UIs', textDirection: TextDirection.ltr), 
-    Column(
-      children:<Widget> [
-        Text('Craft beautiful UIs', textDirection: TextDirection.ltr), 
-      ],
-    )
-  ],
-)  );
+    MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Teste'),
+        ),
+      ),
+    ),
+  );
 }
